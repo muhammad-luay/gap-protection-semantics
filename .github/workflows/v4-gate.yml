@@ -1,0 +1,9 @@
+name: v4-gate
+on:
+  pull_request: {}
+jobs:
+  gate:
+    name: gapgate
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 600
