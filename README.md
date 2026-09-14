@@ -5,3 +5,4 @@ Synthetic, benign, ours-only. No third-party targets. Used to measure GitHub's m
 evaluation of check-run conclusions and app binding.
 harness main cleaned (sem-job removed)
 cleanup: remove consumer-spoof contamination from base
+cleanup: remove merged fork-PR workflow from base for final controls
