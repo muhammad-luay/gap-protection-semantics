@@ -1,7 +1,9 @@
 name: sem-job
 
 on:
-  pull_request: {}
+  pull_request:
+    paths:
+      - "never/**"
 
 jobs:
   gate:
